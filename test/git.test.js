@@ -12,7 +12,7 @@ describe("Testing GitCommand.status()", function(){
         wd.addFile("index.html", "views", "<html>Hello</html>");
         wd.addFile("index.js", "assets/scripts", "alert('Hi!')");
 
-        //add
+        //add one
 
         let git = new GitCommand(wd);
         let output = git.status();
