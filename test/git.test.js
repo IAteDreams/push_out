@@ -40,6 +40,6 @@ describe("Testing GitCommand.status()", function(){
         let git = new GitCommand(wd);
         let output = git.status();
 
-        expect(output).to.equal('You have 4 change/s.\nviews/index.html\nassets/scripts/index.js');
+        expect(output).to.equal('You have 4 change/s.\nviews/index.html\nassets/scripts/index.js\nviews/index2.html\nassets/scripts/index2.js');
     });
 })
