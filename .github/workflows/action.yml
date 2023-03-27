@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - 'feature/*'
+  pull:
+    branches:
+      - 'master'
+      - 'develop'
 jobs:
   build:
     name: Build and Test
